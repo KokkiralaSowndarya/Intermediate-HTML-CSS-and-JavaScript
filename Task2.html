@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactform &To-do list</title>
+    <link rel="stylesheet" href="Task2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+  <center>
+  <h1>Contact Form &To-Do list</h1>
+  </center>
+    <div class="wrapper">
+  <div class="form-section">
+    <center>
+<h2>Contact Us</h2>
+  </center>
+    <form>
+        <div class="name">
+      <label>Name</label><br>
+      </div>
+      <div class="text-box">
+      <input type="text"><br>
+      </div>
+      <br>
+      
+      <label>Email</label><br>
+      <div class="email-box">
+      <input type="email"><br>
+      </div>
+      <br>
+      <label>Message</label><br>
+      <div class="message-box">
+      <textarea></textarea><br>
+      </div>
+      <div class="submit">
+              <button onclick="showAlert()" type="submit">Submit</button>
+    </div>
+    </form>
+  </div>
+
+
+  <div class="todo-section">
+    <center>
+    <h2>To-Do List</h2>
+    </center>
+    <div id="name" class="task">
+    <input type="text" id="taskInput" placeholder="Add a task">
+    <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+</div>
+      <script src="Task2.js"></script>
+
+       
+</body>
+</html>

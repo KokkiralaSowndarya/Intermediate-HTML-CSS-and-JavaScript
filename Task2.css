@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+ }
+body{
+    background-image:url(bg1.jpg);
+    background-size: cover;
+    color:white;
+    padding-top: 30px;
+    font-weight: 500px ;
+    font-family:'Dancing Script',cursive;
+    opacity: 80%;
+
+  }
+  h1{
+color: rgb(236, 232, 232);
+
+  }
+  .wrapper{
+    display:flex;
+  }
+  .form-section{
+    background-color: white;
+    color:black;
+    margin-left:110px;
+    margin-top:80px;
+    width:55%;
+    padding-left: 15px;
+    height:390px;
+    font-family:'Poppins',sans-serif;
+    padding-top: 20px;
+    border-radius:10px;
+    
+    
+  }
+  .todo-section{
+    background-color: white;
+    color:black;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-top:80px;
+    width:60%;
+    padding-left: 15px;
+    font-family: 'Poppins',sans-serif;
+    padding-top: 20px ;
+    border-radius: 10px;
+  }
+  .name{
+    padding-top:20px;
+  }
+  #name{
+    padding-top: 20px;
+   padding-left:20px; 
+}
+  .text-box input{
+    width:95%;
+    height:30px;
+    border-radius: 7px;
+    border-color: whitesmoke;
+    border-bottom-color: rgb(198, 191, 191);
+  }
+  .email-box input{
+     width:95%;
+    height:30px;
+    border-radius: 7px;
+    border-color: whitesmoke;
+    border-bottom-color: rgb(198, 191, 191);
+  }
+  .message-box textarea{
+     width:95%;
+    height:70px;
+    border-radius: 7px;
+    border-color: rgb(198, 191, 191);
+    border-bottom-color: rgb(198, 191, 191);
+  }
+  .submit{
+    padding-top: 20px;
+    height:50px;
+  }
+  form button{
+    background-color: rgb(78, 183, 78);
+    color: white;
+    border-color: whitesmoke;
+    width: 96%;
+    height: 30px;
+    border-radius: 8px;
+  }
+  .task input{ 
+    width:85%;
+    height:40px;
+    border-radius: 7px;
+    border-color: whitesmoke;
+    border-bottom-color: rgb(198, 191, 191);
+  }
+  button{
+    color:white;
+    background-color: rgb(78, 183, 78);
+    width:50px;
+    height:35px;
+    border-radius: 7px;
+    border-color: white;
+  }
+#taskList{
+  padding-left:40px;
+  padding-top: 10px;
+}
