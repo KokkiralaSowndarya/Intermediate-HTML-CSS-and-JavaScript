@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple eCommerce</title>
+  <link rel="stylesheet" href="Task6.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap/Task6.css" rel="stylesheet">
+    <link rel="stylesheet" href="Task5.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">TravelBliss</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Discover the world with Us</h1>
+      <p>Your journey begins here</p>
+      <a href="#destinations" class="btn">Explore Now</a>
+    </div>
+  </section>
+
+
+  <section id="destinations" class="destinations">
+    <h2>Top Destinations</h2>
+    
+    <div class="cards">
+      <div class="card">
+        <img src="paris.jpeg" alt="Paris"/>Paris
+      </div>
+      <div class="card">
+        <img src="bali.jpeg" alt="Bali"/>Bali
+      </div>
+      <div class="card">
+        <img src="new york.jpeg" alt="New York"/>New York
+      </div>
+      <div class="card">
+        <img src="austrlia.jpg" alt="New York"/>Australia
+      </div>
+    
+    </div>
+  
+  </section>
+
+
+
+  <section id="services" class="services">
+    <h2>We Offer Best Services</h2>
+   <div class="service-cards">
+    <div class="service-card">
+     <i class="fa-solid fa-cloud"></i>
+      <h4>Calculated Weather</h4>
+      <p>Stay ahead of your travels with precise
+        weather forecats tailored to your destination's conditions.
+      </p>
+    </div>
+    <div class="service-card">
+      <i class="fa-solid fa-plane"></i>
+      <h4>Best Flights</h4>
+      
+      <p>Unlock your exclusive access to optimal flight options curated to 
+        match your preferences and budget
+      </p>
+    </div>
+    <div class="service-card">
+      <i class="fa-solid fa-calendar-days"></i>
+      <h4>Local Events</h4>
+      <p>Immerse  yourself in the pulse of your destination with insights into local
+        events and happenings within travel.
+      </p>
+    </div>
+     <div class="service-card">
+    <i class="fa-solid fa-gear"></i>
+      <h4>Customizations</h4>
+      <p>Tailor your journey with personalized Customizations,ensuring every 
+        detail reflects your unique travel style.
+      </p>
+    </div>
+   </div>
+
+
+  </section>
+
+  <!------------Testimonials section--------------------->
+  <section id="testimonials" class="testimonials">
+    <h2>What our Travelers say</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial-card">
+        <p>
+          "This was the best trip of my life! TravelBliss handled
+          everything perfectly."
+        </p>
+        <h4>-  Soni</h4>
+      </div>
+      <div class="testimonial-card">
+        <p>
+          "Beautiful destinations, great hotels, and top-notch support."
+        </p>
+        <h4>- chinnu</h4>
+      </div>
+      <div class="testimonial-card">
+        <p>
+          "Super smooth booking process and amazing deals.Highly recommended!"
+        </p>
+        <h4>- Esther</h4>
+      </div>
+    </div> 
+  </section>
+
+  <section id="about" class="about">
+    <h2>About US</h2>
+    <p>
+      We are passionate Travelers helping others explore the world.
+      Join for exciting travel packages,tips, and unforgettable adventures!
+    </p><br><br><br>
+    <b>"Travel isn't always about escaping life - it's about ensuring life doesn't escape you."</b>
+  </section>
+  <secton id="contact" class="contact">
+    <h2>Contact US</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required/>
+      <input type="email" placeholder="Your Email" required/>
+      <textarea placeholder="Your Meassage" required></textarea>
+      <button onclick="showAlert()" type="submit">Send Meassage</button>
+          </form>
+     </secton>
+
+
+  <footer>
+    <p>&copy; 2025 TravelBliss. All rights reserved.</p>
+  </footer>
+  <script>
+    function showAlert(){
+alert("Thank you for exploring this!");
+    }
+    </script>
+</body>
+</html>
